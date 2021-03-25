@@ -22,4 +22,9 @@ public class MyResource {
     public String getIt() {
         return "Hola, desde Jersey!!!";
     }
+    
+    @DELETE
+    public void borraraUsuario() {
+    	System.out.println("Hola2");
+    }
 }
